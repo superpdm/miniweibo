@@ -1,0 +1,2 @@
+# miniweibo
+miniWeibo is a twitter-like system that is intended to share some specific knowledge among a group of members. MiniWeibo includes 3 parts: an Android App, a webservice server and a reptile for specific knowledge. The Android App is the most important part, including login, edit profiles, view new knowledge from reptile, view group member¡¯s knowledge, forward a knowledge, create a new knowledge, send message to others and so on.
