@@ -1,0 +1,38 @@
+2013-06-14 20:34:57		select * from USER
+2013-06-14 20:35:36		select * from USER
+2013-06-14 20:35:59		select * from USER
+2013-06-14 20:36:07		select * from USER
+2013-06-14 20:36:31		select * from USER
+2013-06-14 20:37:09		select * from USER
+2013-06-14 20:37:58		select * from USER
+2013-06-14 20:38:33		select * from  WEIBO  where 1=1  order by CREATED_AT desc limit 10
+2013-06-14 20:38:34		select * from USER where USER_ID=7
+2013-06-14 20:38:34		select count(*) as COUNT from COMMENT where  WEIBO_ID=2406
+2013-06-14 20:38:34		select count(*) as COUNT from WEIBO where FORWARD_ID=2406
+2013-06-14 20:38:34		select * from USER where USER_ID=3
+2013-06-14 20:38:34		select count(*) as COUNT from COMMENT where  WEIBO_ID=2405
+2013-06-14 20:38:34		select count(*) as COUNT from WEIBO where FORWARD_ID=2405
+2013-06-14 20:38:34		select * from USER where USER_ID=7
+2013-06-14 20:38:34		select count(*) as COUNT from COMMENT where  WEIBO_ID=2404
+2013-06-14 20:38:34		select count(*) as COUNT from WEIBO where FORWARD_ID=2404
+2013-06-14 20:38:35		select * from USER where USER_ID=2
+2013-06-14 20:38:35		select count(*) as COUNT from COMMENT where  WEIBO_ID=2403
+2013-06-14 20:38:35		select count(*) as COUNT from WEIBO where FORWARD_ID=2403
+2013-06-14 20:38:35		select * from USER where USER_ID=3
+2013-06-14 20:38:35		select count(*) as COUNT from COMMENT where  WEIBO_ID=2402
+2013-06-14 20:38:35		select count(*) as COUNT from WEIBO where FORWARD_ID=2402
+2013-06-14 20:38:35		select * from USER where USER_ID=7
+2013-06-14 20:38:35		select count(*) as COUNT from COMMENT where  WEIBO_ID=2401
+2013-06-14 20:38:35		select count(*) as COUNT from WEIBO where FORWARD_ID=2401
+2013-06-14 20:38:35		select * from USER where USER_ID=2
+2013-06-14 20:38:35		select count(*) as COUNT from COMMENT where  WEIBO_ID=2400
+2013-06-14 20:38:35		select count(*) as COUNT from WEIBO where FORWARD_ID=2400
+2013-06-14 20:38:35		select * from USER where USER_ID=7
+2013-06-14 20:38:35		select count(*) as COUNT from COMMENT where  WEIBO_ID=2399
+2013-06-14 20:38:36		select count(*) as COUNT from WEIBO where FORWARD_ID=2399
+2013-06-14 20:38:36		select * from USER where USER_ID=2
+2013-06-14 20:38:36		select count(*) as COUNT from COMMENT where  WEIBO_ID=2398
+2013-06-14 20:38:36		select count(*) as COUNT from WEIBO where FORWARD_ID=2398
+2013-06-14 20:38:36		select * from USER where USER_ID=2
+2013-06-14 20:38:36		select count(*) as COUNT from COMMENT where  WEIBO_ID=2397
+2013-06-14 20:38:36		select count(*) as COUNT from WEIBO where FORWARD_ID=2397

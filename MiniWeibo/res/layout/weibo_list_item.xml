@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ 
+ 
+    <!-- 头像 -->
+
+    <ImageView
+        android:id="@+id/user_photo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/message" />
+ 
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_marginRight="5dp"
+        >
+        
+ 		<LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+ 		<!-- 用户名 -->
+ 		
+        <TextView android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#000000"
+            android:text="笑话加工坊"
+            android:layout_weight="6"
+            android:textSize="16dp" />
+        
+        <!-- 发布时间 -->
+        <TextView android:id="@+id/pub_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#101010"
+            android:text="1分钟前"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="10dp" />
+        </LinearLayout>
+        
+ 		<!-- 微博内容 -->
+        <TextView android:id="@+id/content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="【情敌打你一巴掌，你会怎样？凭良心说】1.回一巴掌。2.转身离去。3.回两巴掌。4.飞起一脚。5.哭死"
+            android:textSize="13dp" />
+        <!-- 图片预览 -->
+
+ 		<ImageView
+ 		    android:id="@+id/content_image"
+ 		    android:layout_width="fill_parent"
+ 		    android:layout_height="150dp"
+ 		    android:adjustViewBounds="true"
+ 		    android:scaleType="fitCenter"
+ 		    android:visibility="invisible"/>
+ 		
+ 		<!-- 评论，转发，赞 -->
+		<LinearLayout android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+        >
+
+		    <TextView
+		        android:id="@+id/comment_num"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="right"
+		        android:text="评论 20 转发10 赞10"
+		        android:textColor="#101010"
+		        android:textSize="10dp" />
+
+		</LinearLayout>
+    </LinearLayout>
+ 
+ 
+</LinearLayout>

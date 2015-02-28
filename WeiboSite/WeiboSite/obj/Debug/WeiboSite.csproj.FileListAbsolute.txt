@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\WeiboSite\WeiboSite\bin\WeiboSite.dll
+C:\Users\Administrator\Desktop\WeiboSite\WeiboSite\bin\WeiboSite.pdb
+C:\Users\Administrator\Desktop\WeiboSite\WeiboSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WeiboSite\WeiboSite\obj\Debug\WeiboSite.dll
+C:\Users\Administrator\Desktop\WeiboSite\WeiboSite\obj\Debug\WeiboSite.pdb

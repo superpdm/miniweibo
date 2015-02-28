@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+ 
+ 
+    <!-- 头像 -->
+
+    <ImageView
+        android:id="@+id/user_photo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/message" />
+ 
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_marginRight="5dp"
+        >
+        
+ 		<LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+ 		<!-- 用户名 -->
+ 		
+        <TextView android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#000000"
+            android:text="笑话加工坊"
+            android:layout_weight="6"
+            android:textSize="16dp" />
+        
+        <!-- 发布时间 -->
+        <TextView android:id="@+id/comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#101010"
+            android:text="1分钟前"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="10dp" />
+        </LinearLayout>
+        
+ 		<!-- 微博内容 -->
+        <TextView android:id="@+id/content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="好小好小，哈哈!!"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+ 
+ 
+</LinearLayout>

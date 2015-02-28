@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <!-- 用户名 -->
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="笑话加工坊"
+        android:textColor="#0000FF"
+        android:textSize="15dp" />
+
+    <!-- 发布时间 -->
+
+    <TextView
+        android:id="@+id/msg_type"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="    发送了一个消息"
+        android:textColor="#101010"
+        android:textSize="15dp" />
+
+    <TextView
+        android:gravity="right"
+        android:id="@+id/pub_time"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="1分钟前"
+        android:textColor="#101010"
+        android:textSize="15dp" />
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/msg_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="1分钟前"
+        android:textColor="#101010"
+        android:textSize="17dp" 
+        />
+</LinearLayout>

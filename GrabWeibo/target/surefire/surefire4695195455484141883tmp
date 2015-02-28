@@ -1,0 +1,34 @@
+#surefire
+#Fri May 24 22:47:58 CST 2013
+testClassesDirectory=D\:\\Dropbox\\GuoLiang\\FinestCreation\\GrabWeibo\\target\\test-classes
+classPathUrl.4=D\:\\Program Files\\apache-maven-3.0.5\\repo\\commons-httpclient\\commons-httpclient\\3.1\\commons-httpclient-3.1.jar
+classPathUrl.3=D\:\\Program Files\\apache-maven-3.0.5\\repo\\commons-codec\\commons-codec\\1.7\\commons-codec-1.7.jar
+classPathUrl.2=D\:\\Program Files\\apache-maven-3.0.5\\repo\\junit\\junit\\3.8.1\\junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\Dropbox\\GuoLiang\\FinestCreation\\GrabWeibo\\target\\classes
+reportsDirectory=D\:\\Dropbox\\GuoLiang\\FinestCreation\\GrabWeibo\\target\\surefire-reports
+classPathUrl.0=D\:\\Dropbox\\GuoLiang\\FinestCreation\\GrabWeibo\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\Dropbox\\GuoLiang\\FinestCreation\\GrabWeibo\\src\\test\\java
+surefireClassPathUrl.1=D\:\\Program Files\\apache-maven-3.0.5\\repo\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=D\:\\Program Files\\apache-maven-3.0.5\\repo\\org\\apache\\maven\\surefire\\surefire-junit3\\2.7.1\\surefire-junit3-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=D\:\\Dropbox\\GuoLiang\\FinestCreation\\GrabWeibo\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.9=D\:\\Program Files\\apache-maven-3.0.5\\repo\\com\\oracle\\ojdbc6\\11.2.0.1\\ojdbc6-11.2.0.1.jar
+classPathUrl.8=D\:\\Program Files\\apache-maven-3.0.5\\repo\\com\\weibo\\weibo4j\\2.1.1\\weibo4j-2.1.1.jar
+classPathUrl.7=D\:\\Program Files\\apache-maven-3.0.5\\repo\\log4j\\log4j\\1.2.16\\log4j-1.2.16.jar
+childDelegation=false
+classPathUrl.6=D\:\\Program Files\\apache-maven-3.0.5\\repo\\org\\codehaus\\jackson\\jackson-core-asl\\1.9.12\\jackson-core-asl-1.9.12.jar
+classPathUrl.5=D\:\\Program Files\\apache-maven-3.0.5\\repo\\commons-logging\\commons-logging\\1.1.2\\commons-logging-1.1.2.jar

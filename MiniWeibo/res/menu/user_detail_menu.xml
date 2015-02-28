@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" > 
+ 
+    <item 
+        
+        android:id="@+id/user_photo" 
+        android:orderInCategory="1" 
+        android:showAsAction="always" 
+         android:actionViewClass="android.widget.ImageView"
+        
+        /> 
+ 
+    <item 
+        android:id="@+id/user_name" 
+        android:orderInCategory="2" 
+        android:showAsAction="always" 
+        android:actionViewClass="android.widget.TextView"
+        
+        /> 
+ 
+    <item 
+        android:icon="@drawable/send_message"
+        android:id="@+id/send_msg" 
+        android:orderInCategory="3" 
+        android:showAsAction="always" 
+        /> 
+
+ 
+</menu> 

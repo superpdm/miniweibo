@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/comment"
+        android:icon="@drawable/new_weibo"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="评论"/>
+    <item
+        android:id="@+id/forward"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="转发"/>
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/like"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="赞"/>
+
+</menu>
